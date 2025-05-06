@@ -1,8 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { AppLayout } from "./components/Layout/AppLayout";
-
 import "./App.css";
-
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { Country } from "./pages/Country";
@@ -10,6 +8,7 @@ import { Contact } from "./pages/Contact";
 import { ErrorPage } from "./pages/ErrorPage";
 import { CountryDetails } from "./components/Layout/CountryDetails";
 
+// Create router with the basename for GitHub Pages
 const router = createBrowserRouter([
   {
     path: "/",
@@ -41,7 +40,11 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
-  return <RouterProvider router={router}> </RouterProvider>;
+  return (
+    <RouterProvider router={router} basename="/world-atlas">
+      {/* All routes here */}
+    </RouterProvider>
+  );
 };
 
 export default App;
