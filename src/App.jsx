@@ -41,9 +41,7 @@ const router = createBrowserRouter([
 
 const App = () => {
   return (
-    <RouterProvider router={router} basename="/world-atlas">
-      {/* All routes here */}
-    </RouterProvider>
+    <RouterProvider router={router} />
   );
 };
 
