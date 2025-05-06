@@ -12,8 +12,8 @@ import { CountryDetails } from "./components/Layout/CountryDetails";
 const router = createBrowserRouter([
   {
     path: "/",
-    // element: <AppLayout />,
-    // errorElement: <ErrorPage />,
+    element: <AppLayout />,
+    errorElement: <Home />,
     children: [
       {
         path: "/",
