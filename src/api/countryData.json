@@ -1,10 +1,17 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "countryName": "World",
     "capital": "No Capital",
     "population": "Null",
     "interestingFact": "There are 195 countries in the world today, including 193 United Nations member states and 2 observer states."
+  },
+  {
+    "id": 1,
+    "countryName": "India",
+    "capital": "New Delhi",
+    "population": 1380004385,
+    "interestingFact": "India, a land of diverse culture, boasts a long history and is the birthplace of Hinduism and Buddhism. The country is also known for its rich spice trade and the majestic Taj Mahal. "
   },
   {
     "id": 2,
