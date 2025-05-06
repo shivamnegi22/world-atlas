@@ -21,6 +21,7 @@ const App =() =>
   <Route  path="/country/:id" element={<CountryDetails />} />
   <Route  path="/contact" element={<Contact/>} />
   </Routes> 
+  
   <Footers />     
   </>
     );
