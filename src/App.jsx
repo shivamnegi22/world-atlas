@@ -15,7 +15,7 @@ const App =() =>
   <>
   <Headers  />
   <Routes>
-  <Route  path="/world-atlas" element={<Home />} />
+  <Route  path="/" element={<Home />} />
   <Route  path="/about" element={<About />} />
   <Route  path="/country" element={<Country />} />
   <Route  path="/country/:id" element={<CountryDetails />} />
